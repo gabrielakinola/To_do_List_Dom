@@ -1,0 +1,122 @@
+body {
+  font-family: sans-serif;
+  background-color: #282828;
+  overflow-x: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1240px;
+  width: 100%;
+  min-height: 1000px;
+  margin: 20px 0 0 0;
+  background-color: #d4cfff;
+  border-radius: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  max-width: 70%;
+  max-height: 20%;
+  width: 100%;
+  height: auto;
+  padding: 70px;
+  margin: 20px;
+  background-color: #8e6bba;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  font-size: larger;
+}
+
+.input-task {
+  width: 50%;
+}
+
+input {
+  border-radius: 5px;
+  font-size: large;
+  border: 1px solid #8e6bba;
+  padding: 0px 10px;
+  height: 40px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid purple;
+}
+
+.form-container button {
+  background-color: purple;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #8e6bba;
+  margin-top: 30px;
+}
+
+.form-container button:hover {
+  background-color: #2e1213;
+}
+
+.tasks-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px;
+  margin: 20px;
+  background-color: #8e6bba;
+  border-radius: 5px;
+  max-width: 70%;
+  width: 100%;
+}
+
+.tasks-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: purple;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%;
+  height: 60px;
+}
+
+.remove-button {
+  background-color: #2e1213;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+.remove-button:hover {
+  background-color: #8e6bba;
+  transition: ease-in 0.3s;
+}
+
+.tasks-item {
+  font-size: larger;
+}
